@@ -7,7 +7,6 @@ from trac.web.chrome import ITemplateProvider, Chrome
 from trac.util.text import javascript_quote
 
 from genshi.filters.transform import Transformer
-from genshi.core import Markup
 
 import pkg_resources
 

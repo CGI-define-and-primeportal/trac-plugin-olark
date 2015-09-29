@@ -1,6 +1,5 @@
 from trac.core import *
 from trac.admin import IAdminPanelProvider
-from trac.config import Option
 from trac.web.chrome import add_notice
 
 class OlarkAdmin(Component):
