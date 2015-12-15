@@ -9,9 +9,15 @@ setup(
     packages = ['olarkplugin'],
     package_data = {'olarkplugin': ['templates/*.html']},
     author = "Nick Piper",
-    author_email = "nick.piper@logica.com",
-    description = "Integration with http://www.olark.com/.",
-    license = "BSD",
+    author_email = "nick.piper@cgi.com",
+    maintainer="CGI CoreTeam",
+    maintainer_email="coreteam.service.desk.se@cgi.com",
+    contact="CGI CoreTeam",
+    contact_email="coreteam.service.desk.se@cgi.com",
+    classifiers=['License :: OSI Approved :: BSD License'],
+    license='BSD',
+    url='http://define.primeportal.com/',
+    description = "Integration with http://www.olark.com/. Not created by nor endorsed by Olark.",
     keywords = "trac plugin olark",
 
     entry_points = {
